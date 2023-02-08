@@ -1,0 +1,130 @@
+/*-------------------------------------------
+Color ,Fona and variable setup
+------------------------------------------*/
+
+:root{
+  --c-primary:#007DFC;
+  --c-bg:#e4e9ee;
+  --c-dark:#383838;
+  --c-grey:#a5a5a5;
+  --font-base:"poppins";
+}
+/*-------------------------------------------
+Navbar Section
+------------------------------------------*/
+
+.navbar{
+  font-family: var(--font-base);
+  font-weight: 500;
+}
+
+
+/*-------------------------------------------
+Body Section
+------------------------------------------*/
+
+body{
+  font-family: var(--font-base) !important;
+  font-size: 16px;
+  line-height: 1.6;
+  background: var(--c-bg) !important;
+}
+
+p{
+  font-family: var(--font-base);
+}
+a:hover {
+  text-decoration: none;
+  color: var(--c-primary);
+}
+
+.section-padding{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/*-------------------------------------------
+Hero Section
+------------------------------------------*/
+
+#hero {
+  background: url(https://images.unsplash.com/photo-1643330683233-ff2ac89b002c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.herotext{
+  font-weight: 700 !important;
+}
+
+/*-------------------------------------------
+Button
+------------------------------------------*/
+.btn{
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  border-color:var(--c-bg)  !important;
+}
+.btn-primary{
+  background-color: var(--c-primary);
+  
+}
+.btn-primary:hover{
+  background-color: var(--c-bg) !important;
+  color: var(--c-dark) !important;
+  border-color: var(--c-bg) !important;
+
+}
+.btn-outline-light:hover{
+  background-color: var(--c-bg) !important;
+  color: var(--c-dark) !important;
+  border-color: var(--c-bg) !important;
+}
+
+/*-------------------------------------------
+About us Section
+------------------------------------------*/
+.brand-title{
+  font-size: 70px !important;
+  font-weight: 700 !important;
+  color: var(--c-dark);
+}
+
+.brand-p{
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  color: var(--c-grey);
+}
+
+.sec-title{
+  font-size: 50px !important;
+  font-weight: 700 !important;
+  color: var(--c-grey);
+}
+
+.sec-p{
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  color: var(--c-dark);
+}
+
+/*-------------------------------------------
+Icon Section
+------------------------------------------*/
+
+.iconbox {
+  background: var(--c-primary);
+  color: var(--c-bg);
+  width: 70px;
+  height: 65px;
+  align-items: center;
+  font-size: 35px;
+  text-align: center;
+  flex: none;
+}
+
+
+
+.footerspace{
+  margin-top: 80px;
+}
